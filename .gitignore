@@ -1,0 +1,43 @@
+# Outputs
+data_generation/outputs/
+eval/outputs
+eval/outputs_passk/
+eval/output_his/
+eval/outputs_trans/
+
+# Data directory - ignore everything except the zip archive
+data/
+!data/HardSecBench_Data.zip
+!data/HardSecBench_Data.tar.gz
+
+# Backup data
+data_backup/
+
+# VCD files (simulation waveforms - too large for GitHub)
+*.vcd
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Environment
+.env
+*.env.local
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
