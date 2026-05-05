@@ -7,7 +7,9 @@
 ################################################################################
 
 # Configuration
-DATA_PATH="../data/batchall_20251218_152111_gemini-3-pro-preview"
+# Usage: bash filter.sh <data_path>
+#   data_path: Path to the batchall output directory (e.g., ../data/batchall_20260505_021201_mimo-v2.5-pro)
+DATA_PATH="${1:-../data/batchall}"
 MUTATIONS=5                    # Number of mutations to test per seed
 MUTATION_THRESHOLD=0.5         # Minimum mutation detection rate (0.0-1.0)
 COVERAGE_THRESHOLD=0.8         # Minimum code coverage required (0.0-1.0)
