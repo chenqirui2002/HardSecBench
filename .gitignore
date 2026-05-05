@@ -6,7 +6,7 @@ eval/output_his/
 eval/outputs_trans/
 
 # Data directory - ignore everything except the zip archive
-data/
+data/*
 !data/HardSecBench_Data.zip
 !data/HardSecBench_Data.tar.gz
 
