@@ -342,13 +342,18 @@ OPENAI_BASE_URL=https://api.openai.com/v1  # Optional
 If you find HardSecBench useful, please cite our paper:
 
 ```bibtex
-@misc{chen2026hardsecbenchbenchmarkingsecurityawareness,
-      title={HardSecBench: Benchmarking the Security Awareness of LLMs for Hardware Code Generation},
-      author={Qirui Chen and Jingxian Shuai and Shuangwu Chen and Shenghao Ye and Zijian Wen and Xufei Su and Jie Jin and Jiangming Li and Jun Chen and Xiaobin Tan and Jian Yang},
-      year={2026},
-      eprint={2601.13864},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2601.13864},
+@inproceedings{ijcai2026p57,
+  title     = {HardSecBench: Benchmarking the Security Awareness of LLMs for Hardware Code Generation},
+  author    = {Chen, Qirui and Shuai, Jingxian and Chen, Shuangwu and Ye, Shenghao and Wen, Zijian and Su, Xufei and Jin, Jie and Li, Jiangming and Chen, Jun and Tan, Xiaobin and Yang, Jian},
+  booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on
+               Artificial Intelligence, {IJCAI-26}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Diego Calvanese},
+  pages     = {500--508},
+  year      = {2026},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2026/57},
+  url       = {https://doi.org/10.24963/ijcai.2026/57},
 }
 ```
